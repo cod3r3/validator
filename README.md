@@ -1,6 +1,14 @@
 # Validator
 Fast PHP Validator Class
 
+### 2 Ways to install Validator
+
+#### Install manually
+
+
+#### Install with composer
+
+
 ### How to
     $valid = Validator::is_valid( $_POST, [
         'username' => 'required|min:3|max:30|alpha_digit',
