@@ -4,8 +4,6 @@
  * @author http://github.com/cod3r3
  */
 
-namespace Core;
-
 class Validator
 {
 

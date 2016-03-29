@@ -1,0 +1,17 @@
+{
+    "name": "cod3r3/validator",
+    "description": "Fast PHP Validator Class",
+    "homepage": "https://github.com/cod3r3/validator",
+    "keywords": [ "Valid Data", "validation", "validator"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "cod3r3",
+            "homepage": "https://github.com/cod3r3"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": ["Validator.php"]
+    }
+}
