@@ -3,11 +3,14 @@ Fast PHP Validator Class
 
 ### 2 Ways to install Validator
 
-#### Install manually
+##### Install manually
+1. Download Validator
+2. Unzip it and copy the directory into your project directory. 
 
-
-#### Install with composer
-
+##### Install with composer
+    "require": {
+        "cod3r3/validator": "dev-master"
+    }
 
 ### How to
     $valid = Validator::is_valid( $_POST, [
