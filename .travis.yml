@@ -5,7 +5,7 @@ php:
 
 script:
   - mkdir -p build/logs
-  - vendor/bin/phpunit --coverage-clover=coverage/coverage.xml --configuration=tests/phpunit.xml
+  - phpunit --coverage-clover=coverage/coverage.xml --configuration=tests/phpunit.xml
 
 after_script:
   - php vendor/bin/coveralls
