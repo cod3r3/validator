@@ -1,1 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit color="true">
+    
+    <testsuite name="Super Test">
+        <directory>./tests</directory>
+    </testsuite>
 
+    <filter>
+        <whitelist>
+            <directory suffix=".php">.</directory>
+            <!-- add more directories -->
+            <exclude>
+                <directory suffix=".php">./vendor/</directory>
+                <!-- add more directories with relative or absolute path -->
+            </exclude>
+        </whitelist>
+    </filter>
+
+</phpunit>
