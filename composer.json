@@ -12,5 +12,8 @@
     ],
     "autoload": {
         "files": ["Validator.php"]
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "3.7.*"
     }
 }
