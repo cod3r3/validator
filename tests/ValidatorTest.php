@@ -1,6 +1,6 @@
 <?php
 
-require_one __DIR__ . "/../Validator.php";
+require_one "/../Validator.php";
 
 class ValidatorTest extends PHPUnit_Framework_TestCase{
 
