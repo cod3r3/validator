@@ -6,3 +6,10 @@ php:
   - '7.0'
   - hhvm
   - nightly
+
+env:
+  global:
+    - CI=true
+  matrix:
+    - TEST_DOC=false
+    - TEST_DOC=true
