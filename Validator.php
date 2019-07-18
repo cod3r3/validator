@@ -1,7 +1,7 @@
 <?php
 /**
  * Fast PHP input validation class
- * @author http://github.com/cod3r3
+ * @author http://github.com/delabon
  */
 
 class Validator
